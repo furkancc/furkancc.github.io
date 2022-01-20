@@ -8,51 +8,22 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-      <a href="#about" class="w3-bar-item w3-button">KUYRUK</a>
+      <a href="kuyruk.html" class="w3-bar-item w3-button">KUYRUK</a>
       <a href="#menu" class="w3-bar-item w3-button">İSTASYON</a>
       <a href="#contact" class="w3-bar-item w3-button">DGR</a>
     </div>
   </div>
 </div>
 
-<div class="w3-container">
   <h2>.</h2>
-  <h2>Filter List</h2>
-  <p>Search for a name in the input field.</p>
-
-  <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for names.." id="myInput" onkeyup="myFunction()">
-  	
-    
-  <ul class="w3-ul w3-xlarge w3-margin-top" id="myUL">
-    <li>Adele</li>
-    <li>Agnes</li>
-    <li>Billy</li>
-    <li>Bob</li>
-    <li>Calvin</li>
-    <li>Christina</li>
-    <li>Cindy</li>
-    <li><a href="#" >semih</a></li> 
-    <li><a href="https://www.w3schools.com" >furkan</a></li>
-  </ul>
+  <h2>.</h2>
+  <h2>Semih Proje</h2>
+  <p>sadece kuyruk kısmı aktif. </p>
+  <p>bir de açıklamalar sayfasında menüde kuyruk yanlış linklemişim hata veriyor. düzeltilir. </p>
+  
 </div>
 
-<script>
-function myFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    txtValue = li[i].textContent || li[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
+
 
 </body>
 </html>
